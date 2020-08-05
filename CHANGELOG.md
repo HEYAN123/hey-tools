@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.0.2
+
+- 配置ts和测试
+
 ## v1.0.1
 
 - 补充changelog和readme
