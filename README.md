@@ -1,5 +1,7 @@
 # hey-tools
 
+[![Build Status](https://travis-ci.org/HEYAN123/hey-tools.svg?branch=master)](https://travis-ci.org/HEYAN123/hey-tools)
+
 前端开发常用JS工具函数集合
 
 ## 使用方法
