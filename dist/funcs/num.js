@@ -3,7 +3,7 @@
  * @Author: heyan
  * @Date: 2020-08-06 10:45:28
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-06 14:01:18
+ * @Last Modified time: 2020-08-06 14:54:31
  * 数字处理方法
  */
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -16,7 +16,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var parseMoneyOfFen = function (money, placeholder) {
     // 当money无效，返回占位内容
-    if ((money !== 0 && !money) || Number.isNaN(Number(money))) {
+    if ((money !== 0 && !money) || isNaN(Number(money))) {
         return placeholder;
     }
     // 转换为数字类型

@@ -16,6 +16,12 @@ sayHello();
 
 ## 方法列表
 
+### v1.0.2
+
+- parseMoneyOfFen() 金额格式化
+- sayHey() 打印“hey world!”
+- printContent() 打印输入的参数
+
 ### v1.0.0
 
 - sayHello(): 打印“hey world!”字符串
