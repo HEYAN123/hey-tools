@@ -18,10 +18,10 @@ sayHello();
 
 ### v1.0.3
 
-- getType 获取目标的类型字符串
-- isEmpty 判断目标值是否为空
-- filterInvalidAttr 过滤对象中的无效属性
-- parseMoneyOfFen 金额格式化
+- getType 获取目标的具体类型字符串
+- isEmpty 判断目标是否是空值（空值范围：null,undefined,{},'',[]）
+- filterInvalidAttr 过滤掉对象中的空值（isEmpty方法标准），返回一个新对象
+- parseMoneyOfFen 金额格式化：将以分为单位当金额格式化为两位小数和按千分位逗号分割的字符串
 - printContent 打印输入的参数
 - sayHey 打印“hey world!”
 

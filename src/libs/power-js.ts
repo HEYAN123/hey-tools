@@ -2,7 +2,7 @@
  * @Author: heyan 
  * @Date: 2020-08-07 11:24:56 
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-07 15:24:18
+ * @Last Modified time: 2020-08-07 16:03:55
  * js方法封装
  */
 
@@ -35,7 +35,7 @@ export const isEmpty = (target:any) => {
  * 判断目标的类型
  *
  * @param {*} target
- * @returns object,function,array,number,string,null,undefined,boolean,symbol,regexp,global,htmldocument,errr,date
+ * @returns object,function,array,number,string,null,undefined,boolean,symbol,regexp,global,htmldocument,error,date
  */
 export const getType = (target:any) => {
   switch (typeof target) {

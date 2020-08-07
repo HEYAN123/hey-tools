@@ -1,6 +1,6 @@
 {
   "name": "hey-tools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "js functions",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,8 @@
     "url": "git+https://github.com/HEYAN123/hey-tools.git"
   },
   "keywords": [
-    "javascripts"
+    "javascript",
+    "function"
   ],
   "author": "heyan",
   "license": "ISC",
