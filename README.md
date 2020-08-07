@@ -16,12 +16,21 @@ sayHello();
 
 ## 方法列表
 
+### v1.0.3
+
+- getType 获取目标的类型字符串
+- isEmpty 判断目标值是否为空
+- filterInvalidAttr 过滤对象中的无效属性
+- parseMoneyOfFen 金额格式化
+- printContent 打印输入的参数
+- sayHey 打印“hey world!”
+
 ### v1.0.2
 
-- parseMoneyOfFen() 金额格式化
-- sayHey() 打印“hey world!”
-- printContent() 打印输入的参数
+- parseMoneyOfFen 金额格式化
+- printContent 打印输入的参数
+- sayHey 打印“hey world!”
 
 ### v1.0.0
 
-- sayHello(): 打印“hey world!”字符串
+- sayHello 打印“hey world!”字符串

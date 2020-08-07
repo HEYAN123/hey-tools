@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.0.3
+
+- 增加filterInvalidAttr、isEmpty、getType方法及测试
+
 ## v1.0.2
 
 - 配置ts和测试

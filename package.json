@@ -1,10 +1,10 @@
 {
   "name": "hey-tools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "js functions",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec",
+    "test": "tsc && mocha --reporter spec",
     "build": "tsc"
   },
   "repository": {
