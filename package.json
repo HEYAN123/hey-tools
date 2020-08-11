@@ -1,6 +1,6 @@
 {
   "name": "hey-tools",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "js functions",
   "main": "index.js",
   "scripts": {
