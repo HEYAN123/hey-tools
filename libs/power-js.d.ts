@@ -9,7 +9,7 @@ export declare const isEmpty: (target: any) => boolean;
  * 判断目标的类型
  *
  * @param {*} target
- * @returns object,function,array,number,string,null,undefined,boolean,symbol,regexp,global,htmldocument,errr,date
+ * @returns object,function,array,number,string,null,undefined,boolean,symbol,regexp,global,htmldocument,error,date
  */
 export declare const getType: (target: any) => string;
 declare const funcs_powerjs: {

@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.0.4
+
+- 修复导致包引用无效的路径问题
+
 ## v1.0.3
 
 - 增加filterInvalidAttr、isEmpty、getType方法及测试
