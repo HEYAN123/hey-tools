@@ -1,15 +1,25 @@
 export declare const sayHey: () => boolean;
 export declare const printContent: (content: any) => boolean;
 export declare const parseMoneyOfFen: (money: string | number, placeholder: string | number) => string | number;
+export declare const add: (num1: number, num2: number) => number;
+export declare const sub: (num1: number, num2: number) => number;
+export declare const div: (num1: number, num2: number) => number;
+export declare const mul: (num1: number, num2: number) => number;
 export declare const isEmpty: (target: any) => boolean;
 export declare const getType: (target: any) => string;
 export declare const filterInvalidAttr: (obj: object) => object;
+export declare const formateDate: (date?: Date) => string;
 declare const HEY: {
     sayHey: () => boolean;
     printContent: (content: any) => boolean;
     parseMoneyOfFen: (money: string | number, placeholder: string | number) => string | number;
+    add: (num1: number, num2: number) => number;
+    sub: (num1: number, num2: number) => number;
+    div: (num1: number, num2: number) => number;
+    mul: (num1: number, num2: number) => number;
     isEmpty: (target: any) => boolean;
     getType: (target: any) => string;
     filterInvalidAttr: (obj: object) => object;
+    formateDate: (date?: Date) => string;
 };
 export default HEY;

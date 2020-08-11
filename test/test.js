@@ -2,29 +2,50 @@
  * @Author: heyan 
  * @Date: 2020-08-06 10:43:50 
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-07 15:47:22
+ * @Last Modified time: 2020-08-11 19:49:51
  */
 
 
 'use strict';
 const chai = require('chai');
 const parseMoneyOfFen = require('../dist/index').parseMoneyOfFen;
+const add = require('../dist/index').add;
+const div = require('../dist/index').div;
+const sub = require('../dist/index').sub;
+const mul = require('../dist/index').mul;
 const isEmpty = require('../dist/index').isEmpty;
 const getType = require('../dist/index').getType;
 const filterInvalidAttr = require('../dist/index').filterInvalidAttr;
 
 chai.should();
 
-describe('funcs_num_parseMoneyOfFen 返回值测试', () => {
-  it('各种入参情况返回正确', () => {
-    parseMoneyOfFen(12345, '--').should.equal('123.45');
-    parseMoneyOfFen('12345', '--').should.equal('123.45');
-    parseMoneyOfFen(12300, '--').should.equal('123.00');
-    parseMoneyOfFen(undefined, '--').should.equal('--');
-    parseMoneyOfFen(null, '--').should.equal('--');
-    parseMoneyOfFen('hdiufhisdf', '--').should.equal('--');
-    parseMoneyOfFen({}, '--').should.equal('--');
+describe('funcs_num 测试', () => {
+  describe('parseMoneyOfFen', () => {
+    it('各种入参情况返回正确', () => {
+      parseMoneyOfFen(12345, '--').should.equal('123.45');
+      parseMoneyOfFen('12345', '--').should.equal('123.45');
+      parseMoneyOfFen(12300, '--').should.equal('123.00');
+      parseMoneyOfFen(undefined, '--').should.equal('--');
+      parseMoneyOfFen(null, '--').should.equal('--');
+      parseMoneyOfFen('hdiufhisdf', '--').should.equal('--');
+      parseMoneyOfFen({}, '--').should.equal('--');
+    });
   });
+  describe('add 加法计算测试',() => {
+    it('计算后精度正确', () => {
+      add(1.01, 1.02).should.equal(2.03);
+    });
+  });
+  // describe('div 除法计算测试',() => {
+  //   it('计算后精度正确', () => {
+  //     div(9.12, 100).should.equal(0.0912);
+  //   });
+  // });
+  // describe('sub 减法计算测试',() => {
+  //   it('计算后精度正确', () => {
+  //     div(9.12, 100).should.equal(0.0912);
+  //   });
+  // });
 });
 
 describe('funcs_powerjs 测试', () => {

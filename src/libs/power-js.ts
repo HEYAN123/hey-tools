@@ -2,7 +2,7 @@
  * @Author: heyan 
  * @Date: 2020-08-07 11:24:56 
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-07 16:03:55
+ * @Last Modified time: 2020-08-11 13:49:51
  * js方法封装
  */
 
@@ -28,8 +28,6 @@ export const isEmpty = (target:any) => {
       return false;
   }
 }
-
-
 
 /**
  * 判断目标的类型
