@@ -2,7 +2,7 @@
  * @Author: heyan 
  * @Date: 2020-08-06 10:43:50 
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-11 19:49:51
+ * @Last Modified time: 2020-08-17 16:11:25
  */
 
 
@@ -16,6 +16,7 @@ const mul = require('../dist/index').mul;
 const isEmpty = require('../dist/index').isEmpty;
 const getType = require('../dist/index').getType;
 const filterInvalidAttr = require('../dist/index').filterInvalidAttr;
+const paramsToStr = require('../dist/index').paramsToStr;
 
 chai.should();
 
@@ -99,3 +100,19 @@ describe('funcs_obj 返回值测试', () => {
     JSON.stringify(filterInvalidAttr({ name: 'hhh', age: 16 })).should.equal(JSON.stringify({ name: 'hhh', age: 16 }));
   });
 });
+
+describe('funcs_str 返回值测试', () => {
+  it('paramsToStr 转字符串正确', () => {
+    paramsToStr({}).should.equal('');
+    paramsToStr({
+      name: null
+    }).should.equal('');
+    paramsToStr({
+      name: 'heyan'
+    }).should.equal('?name=heyan');
+    paramsToStr({
+      name: 'heyan',
+      age: '18'
+    }).should.equal('?name=heyan&age=18');
+  })
+})

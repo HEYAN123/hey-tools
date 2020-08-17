@@ -2,7 +2,7 @@
  * @Author: heyan 
  * @Date: 2020-08-05 14:22:26 
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-11 18:21:36
+ * @Last Modified time: 2020-08-17 16:11:22
  * 方法输出出口
  */
 
@@ -11,6 +11,7 @@ import funcs_num from './libs/num';
 import funcs_powerjs from './libs/power-js';
 import funcs_obj from './libs/obj';
 import funcs_time from './libs/time';
+import funcs_str from './libs/str';
 
 
 export const sayHey = funcs_print.sayHey;
@@ -29,6 +30,8 @@ export const filterInvalidAttr = funcs_obj.filterInvalidAttr;
 
 export const formateDate = funcs_time.formatDate;
 
+export const paramsToStr = funcs_str.paramsToStr;
+
 const HEY = {
   sayHey,
   printContent,
@@ -40,7 +43,8 @@ const HEY = {
   isEmpty,
   getType,
   filterInvalidAttr,
-  formateDate
+  formateDate,
+  paramsToStr
 }
 
 export default HEY;

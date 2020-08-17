@@ -16,6 +16,21 @@ sayHello();
 
 ## Function List
 
+### v1.0.6
+
+- paramsToStr 将请求参数对象转化为用于url拼接参数的字符串形式
+- div 不丢失精度的除法
+- mul 不丢失精度的乘法
+- sub 不丢失精度的减法
+- add 不丢失精度的加法
+- formatDate 式化Date对象得到时间字符串
+- getType 获取目标的具体类型字符串
+- isEmpty 判断目标是否是空值（空值范围：null,undefined,{},'',[]）
+- filterInvalidAttr 过滤掉对象中的空值（isEmpty方法标准），返回一个新对象
+- parseMoneyOfFen 金额格式化：将以分为单位当金额格式化为两位小数和按千分位逗号分割的字符串
+- printContent 打印输入的参数
+- sayHey 打印“hey world!”
+
 ### v1.0.5
 
 - div 不丢失精度的除法
@@ -50,6 +65,10 @@ sayHello();
 - sayHello 打印“hey world!”字符串
 
 ## CHANGELOG
+
+### v1.0.6
+
+- 增加方法paramsToStr
 
 ### v1.0.5
 

@@ -9,6 +9,7 @@ export declare const isEmpty: (target: any) => boolean;
 export declare const getType: (target: any) => string;
 export declare const filterInvalidAttr: (obj: object) => object;
 export declare const formateDate: (date?: Date) => string;
+export declare const paramsToStr: (obj: object) => string;
 declare const HEY: {
     sayHey: () => boolean;
     printContent: (content: any) => boolean;
@@ -21,5 +22,6 @@ declare const HEY: {
     getType: (target: any) => string;
     filterInvalidAttr: (obj: object) => object;
     formateDate: (date?: Date) => string;
+    paramsToStr: (obj: object) => string;
 };
 export default HEY;

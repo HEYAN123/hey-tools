@@ -8,6 +8,12 @@
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getTypeOfObject = void 0;
+/**
+ * @description 解析出Object.prototype.toString.call方法返回的类型字符串
+ *
+ * @param {object} obj
+ * @returns
+ */
 exports.getTypeOfObject = function (obj) {
     var typeArr = Object.prototype.toString.call(obj);
     return typeArr.split(' ')[1].split(']')[0].toLocaleLowerCase();
