@@ -5,7 +5,7 @@
  * @returns "YY-MM-DD hh:mm:ss"
  */
 export declare const formatDate: (date?: Date) => string;
-declare const funcs_time: {
+declare const _default: {
     formatDate: (date?: Date) => string;
 };
-export default funcs_time;
+export default _default;

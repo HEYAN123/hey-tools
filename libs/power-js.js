@@ -3,7 +3,7 @@
  * @Author: heyan
  * @Date: 2020-08-07 11:24:56
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-11 13:49:51
+ * @Last Modified time: 2020-08-19 17:38:52
  * js方法封装
  */
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -43,8 +43,7 @@ exports.getType = function (target) {
             return typeof target;
     }
 };
-var funcs_powerjs = {
+exports.default = {
     getType: exports.getType,
     isEmpty: exports.isEmpty
 };
-exports.default = funcs_powerjs;

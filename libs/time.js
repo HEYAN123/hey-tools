@@ -3,7 +3,7 @@
  * @Author: heyan
  * @Date: 2020-08-11 13:50:08
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-11 18:36:45
+ * @Last Modified time: 2020-08-19 17:39:23
  * 时间相关
  */
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -24,7 +24,6 @@ exports.formatDate = function (date) {
     var second = date.getSeconds() < 10 ? "0" + date.getSeconds() : String(date.getSeconds());
     return year + "-" + month + "-" + day + " " + hour + ":" + minute + ":" + second;
 };
-var funcs_time = {
+exports.default = {
     formatDate: exports.formatDate
 };
-exports.default = funcs_time;

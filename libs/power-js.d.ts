@@ -12,8 +12,8 @@ export declare const isEmpty: (target: any) => boolean;
  * @returns object,function,array,number,string,null,undefined,boolean,symbol,regexp,global,htmldocument,error,date
  */
 export declare const getType: (target: any) => string;
-declare const funcs_powerjs: {
+declare const _default: {
     getType: (target: any) => string;
     isEmpty: (target: any) => boolean;
 };
-export default funcs_powerjs;
+export default _default;

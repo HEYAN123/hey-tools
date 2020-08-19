@@ -10,7 +10,7 @@ export declare const getType: (target: any) => string;
 export declare const filterInvalidAttr: (obj: object) => object;
 export declare const formateDate: (date?: Date) => string;
 export declare const paramsToStr: (obj: object) => string;
-declare const HEY: {
+declare const _default: {
     sayHey: () => boolean;
     printContent: (content: any) => boolean;
     parseMoneyOfFen: (money: string | number, placeholder: string | number) => string | number;
@@ -24,4 +24,4 @@ declare const HEY: {
     formateDate: (date?: Date) => string;
     paramsToStr: (obj: object) => string;
 };
-export default HEY;
+export default _default;

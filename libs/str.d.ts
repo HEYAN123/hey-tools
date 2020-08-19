@@ -5,7 +5,7 @@
  * @returns {string}
  */
 export declare const paramsToStr: (obj: object) => string;
-declare const funcs_str: {
+declare const _default: {
     paramsToStr: (obj: object) => string;
 };
-export default funcs_str;
+export default _default;

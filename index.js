@@ -3,7 +3,7 @@
  * @Author: heyan
  * @Date: 2020-08-05 14:22:26
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-17 16:11:22
+ * @Last Modified time: 2020-08-19 17:39:30
  * 方法输出出口
  */
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -26,7 +26,7 @@ exports.getType = power_js_1.default.getType;
 exports.filterInvalidAttr = obj_1.default.filterInvalidAttr;
 exports.formateDate = time_1.default.formatDate;
 exports.paramsToStr = str_1.default.paramsToStr;
-var HEY = {
+exports.default = {
     sayHey: exports.sayHey,
     printContent: exports.printContent,
     parseMoneyOfFen: exports.parseMoneyOfFen,
@@ -40,4 +40,3 @@ var HEY = {
     formateDate: exports.formateDate,
     paramsToStr: exports.paramsToStr
 };
-exports.default = HEY;

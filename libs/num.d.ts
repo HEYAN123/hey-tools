@@ -22,11 +22,11 @@ export declare const sub: (num1: number, num2: number) => number;
  * @returns
  */
 export declare const parseMoneyOfFen: (money: string | number, placeholder: string | number) => string | number;
-declare const funcs_num: {
+declare const _default: {
     parseMoneyOfFen: (money: string | number, placeholder: string | number) => string | number;
     add: (num1: number, num2: number) => number;
     sub: (num1: number, num2: number) => number;
     div: (num1: number, num2: number) => number;
     mul: (num1: number, num2: number) => number;
 };
-export default funcs_num;
+export default _default;

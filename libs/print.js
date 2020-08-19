@@ -3,15 +3,16 @@
  * @Author: heyan
  * @Date: 2020-08-06 09:43:15
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-06 10:14:49
+ * @Last Modified time: 2020-08-19 17:34:58
  * 控制台打印方法
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.printContent = exports.sayHey = void 0;
 /**
  * 打印‘hey world！’字符串，用于简单的流程节点提示
  * @returns
  */
-var sayHey = function () {
+exports.sayHey = function () {
     console.log('hey world!');
     return true;
 };
@@ -21,12 +22,11 @@ var sayHey = function () {
  * @param {*} content
  * @returns
  */
-var printContent = function (content) {
+exports.printContent = function (content) {
     console.log(content.toString(), content);
     return true;
 };
-var funcs_print = {
-    sayHey: sayHey,
-    printContent: printContent
+exports.default = {
+    sayHey: exports.sayHey,
+    printContent: exports.printContent
 };
-exports.default = funcs_print;

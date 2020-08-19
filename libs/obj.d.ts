@@ -6,7 +6,7 @@
  * @returns {object}
  */
 export declare const filterInvalidAttr: (obj: object) => object;
-declare const funcs_obj: {
+declare const _default: {
     filterInvalidAttr: (obj: object) => object;
 };
-export default funcs_obj;
+export default _default;
