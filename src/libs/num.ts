@@ -2,7 +2,7 @@
  * @Author: heyan 
  * @Date: 2020-08-06 10:45:28 
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-11 18:38:30
+ * @Last Modified time: 2020-08-19 17:38:29
  * 数字处理方法
  */
 
@@ -132,13 +132,11 @@ export const parseMoneyOfFen = (money: string | number, placeholder: string | nu
   return str_yuan.replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,');
 }
 
-const funcs_num = {
+export default {
   parseMoneyOfFen,
   add,
   sub,
   div,
   mul
 }
-
-export default funcs_num
 

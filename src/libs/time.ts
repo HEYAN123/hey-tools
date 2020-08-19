@@ -2,7 +2,7 @@
  * @Author: heyan 
  * @Date: 2020-08-11 13:50:08 
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-11 18:36:45
+ * @Last Modified time: 2020-08-19 17:39:23
  * 时间相关
  */
 
@@ -23,9 +23,6 @@ export const formatDate = (date: Date = new Date()): string => {
   return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
 }
 
-
-const funcs_time = {
+export default {
   formatDate
-}
-
-export default funcs_time;
+};

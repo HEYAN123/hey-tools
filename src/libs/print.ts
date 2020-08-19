@@ -2,7 +2,7 @@
  * @Author: heyan 
  * @Date: 2020-08-06 09:43:15 
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-06 10:14:49
+ * @Last Modified time: 2020-08-19 17:34:58
  * 控制台打印方法
  */
 
@@ -10,7 +10,7 @@
  * 打印‘hey world！’字符串，用于简单的流程节点提示
  * @returns
  */
-const sayHey = () => {
+export const sayHey = () => {
   console.log('hey world!');
   return true;
 }
@@ -21,14 +21,12 @@ const sayHey = () => {
  * @param {*} content
  * @returns
  */
-const printContent = (content: any) => {
+export const printContent = (content: any) => {
   console.log(content.toString(), content);
   return true;
 }
 
-const funcs_print = {
+export default {
   sayHey,
   printContent
-}
-
-export default funcs_print;
+};

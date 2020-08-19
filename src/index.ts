@@ -2,7 +2,7 @@
  * @Author: heyan 
  * @Date: 2020-08-05 14:22:26 
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-17 16:11:22
+ * @Last Modified time: 2020-08-19 17:39:30
  * 方法输出出口
  */
 
@@ -32,7 +32,8 @@ export const formateDate = funcs_time.formatDate;
 
 export const paramsToStr = funcs_str.paramsToStr;
 
-const HEY = {
+
+export default {
   sayHey,
   printContent,
   parseMoneyOfFen,
@@ -45,6 +46,4 @@ const HEY = {
   filterInvalidAttr,
   formateDate,
   paramsToStr
-}
-
-export default HEY;
+};

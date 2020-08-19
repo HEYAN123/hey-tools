@@ -66,6 +66,10 @@ sayHello();
 
 ## CHANGELOG
 
+### v1.0.7
+
+- 优化模块导出代码
+
 ### v1.0.6
 
 - 增加方法paramsToStr

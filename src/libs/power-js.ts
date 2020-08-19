@@ -2,7 +2,7 @@
  * @Author: heyan 
  * @Date: 2020-08-07 11:24:56 
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-11 13:49:51
+ * @Last Modified time: 2020-08-19 17:38:52
  * js方法封装
  */
 
@@ -44,10 +44,7 @@ export const getType = (target:any) => {
   }
 }
 
-const funcs_powerjs = {
+export default {
   getType,
   isEmpty
-}
-
-
-export default funcs_powerjs;
+};

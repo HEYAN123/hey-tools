@@ -2,7 +2,7 @@
  * @Author: heyan 
  * @Date: 2020-08-06 10:47:04 
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-11 14:22:15
+ * @Last Modified time: 2020-08-19 17:38:41
  * object处理方法
  */
 
@@ -25,8 +25,6 @@ export const filterInvalidAttr = (obj:object): object => {
   return result;
 }
 
-const funcs_obj = {
+export default {
   filterInvalidAttr
-}
-
-export default funcs_obj;
+};

@@ -2,7 +2,7 @@
  * @Author: heyan 
  * @Date: 2020-08-06 10:44:57 
  * @Last Modified by: heyan
- * @Last Modified time: 2020-08-17 16:11:03
+ * @Last Modified time: 2020-08-19 17:39:12
  * 字符串处理方法
  */
 
@@ -28,8 +28,6 @@ export const paramsToStr = (obj: object): string => {
   return res;
 }
 
-const funcs_str = {
+export default {
   paramsToStr,
-}
-
-export default funcs_str;
+};
